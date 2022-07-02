@@ -1,0 +1,10 @@
+body {
+    background-color:#5cdb95;
+    color:#edf5e1;
+}
+p{
+    background-color:#05386b;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+}
