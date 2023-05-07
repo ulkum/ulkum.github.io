@@ -2,11 +2,11 @@ import React from "react";
 import "./App.css";
 
 const App = () => {
-  const styles = StyleSheet.cre;
-
   return (
-    <div className="App" style={styles}>
-      <header className="App-header">Helo</header>
+    <div className="App">
+      <button onClick={() => alert("Попался рак!")} className="button">
+        Push me
+      </button>
     </div>
   );
 };
